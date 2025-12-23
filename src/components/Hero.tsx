@@ -19,9 +19,7 @@ export default function Hero() {
             <a href="#about" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">About</a>
             <a href="#services" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">Services</a>
             <a href="#insights" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">Blog</a>
-            <a href="https://wa.me/+8801339844255" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-2xl">
-              Book a Consultation
-            </a>
+
           </div>
 
           <button
@@ -39,9 +37,7 @@ export default function Hero() {
               <a href="#about" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">About</a>
               <a href="#services" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">Services</a>
               <a href="#insights" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">Blog</a>
-              <a href="https://wa.me/+8801339844255" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-600 hover:text-white transition-all duration-300 hover:scale-105 text-center">
-                Book a Consultation
-              </a>
+
             </div>
           </div>
         )}
@@ -71,8 +67,8 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-600">
               <a href="#about" className="group border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-2xl relative overflow-hidden">
                 <span className="relative z-10">Learn More</span>
-              
-                
+
+
               </a>
             </div>
           </div>
