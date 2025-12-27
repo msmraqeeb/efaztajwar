@@ -57,7 +57,14 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3 text-gray-300">
                 <Phone size={20} className="flex-shrink-0 mt-0.5" />
-                <span>+880 123 456 7890</span>
+                <a
+                  href="https://wa.me/01339844255"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  01339-844255
+                </a>
               </li>
               <li className="flex items-start space-x-3 text-gray-300">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5" />
