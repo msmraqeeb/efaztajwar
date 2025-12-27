@@ -5,7 +5,7 @@ import Services from './Services';
 import Process from './Process';
 import Activities from './Activities';
 import Insights from './Insights';
-import Testimonials from './Testimonials';
+
 import Footer from './Footer';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
             <Process />
             <Activities />
             <Insights />
-            <Testimonials />
+
             <Footer />
         </>
     );
