@@ -2,16 +2,24 @@ import { CheckCircle2 } from 'lucide-react';
 
 const steps = [
   {
-    title: 'Understand your goals, values & aspirations',
-    description: 'Deep dive into your vision and objectives',
+    title: 'Understand your market, goals & customers',
+    description: 'Deep research into customer needs, behavior, and market trends',
   },
   {
-    title: 'Craft your positioning and messaging',
-    description: 'Define your unique value proposition',
+    title: 'Build a strong digital & AI-powered presence',
+    description: 'Website, social media, automation, and AI tools working 24/7 for you',
   },
   {
-    title: 'Launch your authentic personal brand',
-    description: 'Execute with precision and impact',
+    title: 'Position your brand with clear messaging',
+    description: 'Define your unique value proposition and communicate it consistently',
+  },
+  {
+    title: 'Use data to drive smarter decisions',
+    description: 'Track performance, optimize marketing, and forecast growth with analytics',
+  },
+  {
+    title: 'Scale with systems, automation & recurring revenue',
+    description: 'Build processes, teams, and multiple income streams for long-term growth',
   },
 ];
 
@@ -23,14 +31,12 @@ export default function Process() {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-                My Coaching Process,
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
-                  Simplified
+                5 Steps to Grow Your Business <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
+                  in 2026
                 </span>
               </h2>
               <p className="text-xl text-gray-600">
-                A proven methodology designed to unlock your full potential
+                A future-ready framework for sustainable and scalable growth
               </p>
             </div>
 
@@ -57,7 +63,7 @@ export default function Process() {
               ))}
             </div>
 
-            <a href="#about" className="inline-block bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all hover:scale-105 shadow-lg">
+            <a href="https://www.instagram.com/efaztajwar" target="_blank" rel="noopener noreferrer" className="inline-block bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all hover:scale-105 shadow-lg">
               Learn More About My Process
             </a>
           </div>

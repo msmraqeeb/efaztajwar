@@ -77,10 +77,10 @@ export default function About() {
             <div className="flex items-center space-x-4 pt-6">
               <p className="text-sm font-semibold text-slate-900">Connect with me:</p>
               <div className="flex space-x-3">
-                <a href="https://www.facebook.com/efaz.tajwar.7" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
+                <a href="https://www.facebook.com/efaztajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
                   <Facebook className="text-blue-600" size={20} />
                 </a>
-                <a href="https://www.instagram.com/efaz_tajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
+                <a href="https://www.instagram.com/efaztajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
                   <Instagram className="text-blue-600" size={20} />
                 </a>
                 <a href="https://www.linkedin.com/in/efaz-tajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">

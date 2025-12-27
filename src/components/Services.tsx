@@ -1,7 +1,6 @@
-import { ArrowRight, Monitor, Gem, Building2 } from 'lucide-react';
+import { ArrowRight, Monitor, Gem } from 'lucide-react';
 import euroItImage from '../assets/euro_it_branding.jpg';
 import euroMarbleImage from '../assets/euro_marble_living_room.jpg';
-import regnumImage from '../assets/regnum_toll_architecture.jpg';
 
 const services = [
   {
@@ -10,6 +9,7 @@ const services = [
     description: 'Innovative IT solutions and digital transformation services for modern enterprises.',
     color: 'from-blue-600 to-cyan-600',
     image: euroItImage,
+    link: 'https://euroitechnology.com/',
   },
   {
     icon: Gem,
@@ -17,14 +17,9 @@ const services = [
     description: 'Premium marble and granite solutions for exquisite interiors and architectural masterpieces.',
     color: 'from-stone-600 to-slate-800',
     image: euroMarbleImage,
+    link: 'http://euromarblengranite.com/',
   },
-  {
-    icon: Building2,
-    title: 'Regnum Resource Ltd.',
-    description: 'Strategic architectural planning and efficient toll management solutions for critical infrastructure.',
-    color: 'from-emerald-600 to-teal-800',
-    image: regnumImage,
-  },
+
 
 ];
 
@@ -41,13 +36,16 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+        <div className="grid md:grid-cols-2 gap-8 justify-center max-w-5xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <div
+              <a
                 key={index}
-                className="group relative bg-white/80 backdrop-blur-lg rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-white/40"
+                href={service.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-white/80 backdrop-blur-lg rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-white/40 block"
               >
                 <div className="aspect-[3/4] relative overflow-hidden">
                   <img
@@ -55,7 +53,8 @@ export default function Services() {
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-80`}></div>
+                  <div className="absolute bottom-0 inset-x-0 h-3/4 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none"></div>
+
 
                   <div className="absolute inset-0 p-6 flex flex-col justify-between">
                     <div className="flex justify-between items-start">
@@ -77,7 +76,7 @@ export default function Services() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>
