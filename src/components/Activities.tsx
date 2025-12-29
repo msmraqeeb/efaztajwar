@@ -5,14 +5,14 @@ const videos = [
     thumbnail: '/517388899_122145872396749911_1339317509963292009_n.jpg',
     title: 'Elon Musk - The man whose vision, idea and hardwork changed the work.',
     description: 'Watch on Facebook',
-    link: 'https://www.facebook.com/reel/2203285923485223',
+    link: 'https://www.facebook.com/share/r/17L8Sr8xYC/',
     platform: 'facebook',
   },
   {
-    thumbnail: '/499713655_122134492178749911_392058730984465029_n.jpg',
-    title: 'What is Economics of Scale business strategy ?',
+    thumbnail: '/markthumb.png',
+    title: 'Life changing story of Mark Zuckerberg',
     description: 'Watch on Facebook',
-    link: 'https://www.facebook.com/reel/2567428213589318',
+    link: 'https://www.facebook.com/share/r/16VX567Tmb/',
     platform: 'facebook',
   },
   {
