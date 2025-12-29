@@ -1,10 +1,9 @@
-import { TrendingUp, Users, Award, Briefcase } from 'lucide-react';
+import { TrendingUp, Award, Briefcase } from 'lucide-react';
 
 const stats = [
-  { icon: TrendingUp, value: '100+', label: 'Projects Delivered' },
-  { icon: Users, value: '50+', label: 'Happy Clients' },
+  { icon: Briefcase, value: '2', label: "Businesses I'm Managing" },
   { icon: Award, value: '4+', label: 'Years Experience' },
-  { icon: Briefcase, value: '200+', label: 'Success Stories' },
+  { icon: TrendingUp, value: '3+', label: 'Currently Running Projects' },
 ];
 
 export default function Stats() {
@@ -12,7 +11,7 @@ export default function Stats() {
     <div className="relative -mt-16 z-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/40">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => {
               const Icon = stat.icon;
               return (
