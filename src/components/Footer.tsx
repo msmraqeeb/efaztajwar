@@ -83,8 +83,8 @@ export default function Footer() {
               <a href="https://euroitechnology.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 euroitechnology.com
               </a>
-              <a href="https://euromarblegranite.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                euromarblegranite.com
+              <a href="https://euromarblengranite.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                euromarblengranite.com
               </a>
             </div>
           </div>
