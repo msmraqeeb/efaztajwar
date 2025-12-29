@@ -67,7 +67,7 @@ export default function About() {
                 <div>
                   <p className="font-semibold text-slate-900">Companies</p>
                   <div className="space-y-1">
-                    <a href="https://euromarbleandgranite.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 block">euromarbleandgranite.com</a>
+                    <a href="https://euromarblengranite.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 block">euromarblengranite.com</a>
                     <a href="https://euroitechnology.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 block">euroitechnology.com</a>
                   </div>
                 </div>
