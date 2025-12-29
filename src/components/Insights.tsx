@@ -6,7 +6,7 @@ const insights = [
     id: 1,
     title: 'Why Personal Branding Is No Longer Optional in the Digital Age',
     excerpt: 'Personal branding is the intentional process of shaping how others perceive you—your expertise, values, communication style, and professional identity—both online and offline.',
-    image: '/Why Personal Branding Is No Longer Optional in the Digital Age.png',
+    image: '/blog-1.webp',
     date: 'March 15, 2025',
     readTime: '5 min read',
     content: (
@@ -53,7 +53,7 @@ const insights = [
     id: 2,
     title: 'Step-by-Step Strategy to Build a Powerful Personal Brand Online',
     excerpt: 'Building a personal brand is not about being famous—it’s about being clear, consistent, and valuable. With the right strategy, anyone can build a strong online presence that attracts opportunities.',
-    image: '/Step-by-Step Strategy to Build a Powerful Personal Brand Online.png',
+    image: '/blog-2.webp',
     date: 'March 10, 2025',
     readTime: '7 min read',
     content: (
@@ -117,7 +117,7 @@ const insights = [
     id: 3,
     title: 'Common Personal Branding Mistakes—and How to Avoid Them',
     excerpt: 'Many professionals start personal branding but fail to see results—not because it doesn’t work, but because of avoidable mistakes.',
-    image: '/Common Personal Branding Mistakes—and How to Avoid Them.png',
+    image: '/blog-3.jpeg',
     date: 'March 5, 2025',
     readTime: '6 min read',
     content: (
@@ -222,12 +222,7 @@ export default function Insights() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <a href="#insights" className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all hover:scale-105 inline-flex items-center space-x-2">
-            <span>View All Insights</span>
-            <ArrowRight size={20} />
-          </a>
-        </div>
+
       </div>
       <BlogModal
         isOpen={!!selectedPost}
