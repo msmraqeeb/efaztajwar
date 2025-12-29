@@ -10,7 +10,7 @@ export default function Hero() {
 
       <nav className="fixed top-4 left-4 right-4 z-50 px-6 py-4 bg-slate-900/80 backdrop-blur-lg border border-white/10 rounded-2xl shadow-xl mx-auto max-w-7xl">
         <div className="flex items-center justify-between">
-          <a href="#home" className="text-white font-bold text-3xl tracking-tight hover:opacity-80 transition-opacity">
+          <a href="#home" className="text-white font-bold text-3xl tracking-tight hover:opacity-80 transition-opacity outline-none border-none focus:outline-none focus:ring-0">
             Efaz Tajwar
           </a>
 
