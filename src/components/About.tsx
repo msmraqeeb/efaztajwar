@@ -30,7 +30,9 @@ export default function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the Managing Director of Euro Marble and Granite Ltd. and Euro IT, I'm working closely with architectural and real-estate companies to provide them the best marble and granite materials and I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
+              As the Managing Director of Euro Marble and Granite Ltd., I'm working closely with architectural and real-estate companies to provide them the best marble and granite materials.
+              <br /><br />
+              And for Euro IT, I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
