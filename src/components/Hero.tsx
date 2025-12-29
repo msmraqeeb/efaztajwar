@@ -53,15 +53,15 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight animate-fade-in-up animation-delay-200">
-              You're More Than a Brand.
+              Meet
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 hover:from-cyan-400 hover:to-blue-400 transition-all duration-500">
-                You're a Movement.
+                Efaz Tajwar
               </span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed max-w-xl animate-fade-in-up animation-delay-400">
-              Transform your vision into reality with strategic leadership and innovative digital solutions that drive meaningful impact.
+              Working to create great building material products and developing social media presence of all business types.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-600">

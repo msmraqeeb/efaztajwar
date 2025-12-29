@@ -30,7 +30,7 @@ export default function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              As the Managing Director of Euro Marble and Granite Ltd. and Euro IT, I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
+              As the Managing Director of Euro Marble and Granite Ltd. and Euro IT, I'm working closely with architectural and real-estate companies to provide them the best marble and granite materials and I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -77,13 +77,13 @@ export default function About() {
             <div className="flex items-center space-x-4 pt-6">
               <p className="text-sm font-semibold text-slate-900">Connect with me:</p>
               <div className="flex space-x-3">
-                <a href="https://www.facebook.com/efaztajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
+                <a href="https://www.facebook.com/efaztajwartalks" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
                   <Facebook className="text-blue-600" size={20} />
                 </a>
                 <a href="https://www.instagram.com/efaztajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
                   <Instagram className="text-blue-600" size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/efaz-tajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
+                <a href="https://www.linkedin.com/in/efazsikder" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center hover:scale-110 transition-transform border border-white/60">
                   <Linkedin className="text-blue-600" size={20} />
                 </a>
               </div>

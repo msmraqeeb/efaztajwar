@@ -44,7 +44,7 @@ export default function Activities() {
           </p>
           <div className="flex items-center justify-center space-x-4 mt-6">
             <a
-              href="https://www.facebook.com/efaztajwar"
+              href="https://www.facebook.com/efaztajwartalks"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition-all hover:scale-105"
@@ -157,7 +157,7 @@ export default function Activities() {
           <p className="text-gray-400 mb-6">Follow me for more content and updates</p>
           <div className="flex items-center justify-center space-x-4">
             <a
-              href="https://www.facebook.com/efaztajwar"
+              href="https://www.facebook.com/efaztajwartalks"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-all hover:scale-110"

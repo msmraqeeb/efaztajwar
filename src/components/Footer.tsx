@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Linkedin, Facebook, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,6 +12,14 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-4">
               <a
+                href="https://www.facebook.com/efaztajwartalks"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
+                <Facebook size={20} />
+              </a>
+              <a
                 href="https://instagram.com/efaztajwar"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -20,20 +28,12 @@ export default function Footer() {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.facebook.com/efaztajwar"
+                href="https://www.linkedin.com/in/efazsikder"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
               >
                 <Linkedin size={20} />
-              </a>
-              <a
-                href="https://euroitechnology.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors"
-              >
-                <Twitter size={20} />
               </a>
             </div>
           </div>
