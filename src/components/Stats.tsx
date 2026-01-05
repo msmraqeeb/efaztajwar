@@ -2,7 +2,7 @@ import { TrendingUp, Award, Briefcase } from 'lucide-react';
 
 const stats = [
   { icon: Briefcase, value: '2', label: "Businesses I'm Managing" },
-  { icon: Award, value: '4+', label: 'Years Experience' },
+  { icon: Award, value: '8+', label: 'Years Experience' },
   { icon: TrendingUp, value: '3+', label: 'Currently Running Projects' },
 ];
 
